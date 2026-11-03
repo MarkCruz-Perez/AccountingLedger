@@ -9,6 +9,7 @@ public class Transaction {
     private String vendor;
     private BigDecimal amount;
 
+    //Constructor
     public Transaction(LocalDate date, LocalTime time,
                        String description, String vendor,
                        BigDecimal amount) {
