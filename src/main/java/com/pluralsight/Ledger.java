@@ -15,6 +15,7 @@ import java.util.function.Predicate;
 public class Ledger {
 
     private final Path file = Path.of("transactions.csv");
+
     private final List<Transaction> transactions = new ArrayList<>();
 
     //Load transactions from CSV
@@ -24,5 +25,48 @@ public class Ledger {
 
     private void loadTransactions() {
 
+        try {
+            if (!Files.exists(file)) {
+                Files.createFile(file);
+            }
+            List<String> lines = Files.readAllLines(file);
+
+            for (String line : lines) {
+                if (line.isBlank()) {
+                    continue;
+                }
+
+
+                String[] parts = line.split("\\|", -1);
+
+                if (parts.length != 5) {
+
+                    System.out.println("Invalid transaction skipped: " + line);
+                    continue;
+
+                }
+
+                try {
+
+                    Transaction transaction = new Transaction(
+                            LocalDate.parse(parts[0]),
+                            LocalTime.parse(parts[1]),
+                            parts[2],
+                            parts[3],
+                            new BigDecimal(parts[4])
+                    );
+
+                    transactions.add(transaction);
+
+                }catch (RuntimeException e) {
+                    System.out.println("Invalid transaction skipped: " + line);
+
+                    System.out.println("Reason: " + e.getMessage());
+
+                }
+            }
+
+        } catch (IOException e) {}
     }
+
 }
