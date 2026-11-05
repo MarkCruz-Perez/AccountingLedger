@@ -3,6 +3,8 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalTime;
 public class Transaction {
+
+    //add fields
     private LocalDate date;
     private LocalTime time;
     private String description;
@@ -20,6 +22,7 @@ public class Transaction {
         this.amount = amount;
     }
 
+
     public LocalDate getDate() {
         return date;
     }
@@ -36,6 +39,27 @@ public class Transaction {
     public BigDecimal getAmount() {
         return amount;
     }
+    //setters
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    public void setTime(LocalTime time) {
+        this.time = time;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setVendor(String vendor) {
+        this.vendor = vendor;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
+
     //Convert Transaction to CSV
     public String toCsv() {
         return date + "|" + time + "|" + description + "|" + vendor + "|" +
