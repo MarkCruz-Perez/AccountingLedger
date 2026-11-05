@@ -66,7 +66,14 @@ public class Ledger {
                 }
             }
 
-        } catch (IOException e) {}
+        } catch (IOException e) {
+
+            System.out.println("Error reading transactions: " + e.getMessage());
+
+        }
+
+        private;
     }
+
 
 }

@@ -1,0 +1,99 @@
+
+date|time|description|vendor|amount
+2026-01-01|08:15:22|Coffee Purchase|Starbucks|-5.87
+2026-01-01|12:33:41|Lunch Payment|Chipotle|-14.22
+2026-01-01|17:45:03|Salary Deposit|Acme Corp|2500.00
+2026-01-02|09:11:16|Gas Station|Shell|-48.76
+2026-01-02|13:27:55|Grocery Shopping|Walmart|-126.44
+2026-01-02|18:09:33|Online Subscription|Netflix|-15.49
+2026-01-03|07:42:11|Coffee Purchase|Dunkin|-4.98
+2026-01-03|11:59:22|Restaurant Payment|Olive Garden|-42.15
+2026-01-03|16:44:52|ATM Withdrawal|Bank ATM|-100.00
+2026-01-04|08:23:40|Pharmacy Purchase|CVS|-27.83
+2026-01-04|10:51:17|Mobile Phone Bill|Verizon|-89.99
+2026-01-04|19:07:44|Online Shopping|Amazon|-63.72
+2026-01-05|06:58:13|Ride Share|Uber|-18.54
+2026-01-05|12:14:39|Lunch Payment|Panera|-13.11
+2026-01-05|20:25:07|Movie Tickets|AMC|-29.50
+2026-01-06|08:47:01|Coffee Purchase|Starbucks|-6.15
+2026-01-06|14:19:55|Hardware Store|Home Depot|-78.42
+2026-01-06|18:56:28|Electric Bill|TXU Energy|-142.80
+2026-01-07|09:04:10|Gas Station|Chevron|-51.33
+2026-01-07|13:36:27|Grocery Shopping|Kroger|-97.25
+2026-01-07|21:11:52|Music Subscription|Spotify|-10.99
+2026-01-08|07:35:18|Coffee Purchase|Starbucks|-5.61
+2026-01-08|12:12:44|Restaurant Payment|Chili's|-37.84
+2026-01-08|17:50:06|Transfer In|Savings Account|500.00
+2026-01-09|08:29:21|Parking Fee|City Parking|-12.00
+2026-01-09|11:46:57|Office Supplies|Staples|-45.18
+2026-01-09|19:33:42|Online Shopping|Amazon|-114.29
+2026-01-10|09:15:55|Gym Membership|Planet Fitness|-24.99
+2026-01-10|13:58:12|Lunch Payment|Subway|-11.76
+2026-01-10|18:41:39|Internet Bill|Spectrum|-79.99
+2026-01-11|08:04:47|Coffee Purchase|Starbucks|-5.93
+2026-01-11|12:37:24|Restaurant Payment|Texas Roadhouse|-48.16
+2026-01-11|16:22:08|Refund Processed|Amazon|34.99
+2026-01-12|07:53:10|Ride Share|Lyft|-22.48
+2026-01-12|10:28:35|Gas Station|Shell|-46.92
+2026-01-12|19:10:14|Streaming Service|Hulu|-12.99
+2026-01-13|08:16:43|Grocery Shopping|Target|-84.33
+2026-01-13|13:44:50|Lunch Payment|Chipotle|-15.27
+2026-01-13|20:11:37|Online Shopping|eBay|-61.89
+2026-01-14|09:21:18|Coffee Purchase|Dunkin|-4.72
+2026-01-14|12:08:53|Restaurant Payment|Applebee's|-35.09
+2026-01-14|17:59:21|Cash Deposit|Branch Deposit|300.00
+2026-01-15|08:43:16|Pharmacy Purchase|Walgreens|-23.44
+2026-01-15|11:51:08|Utility Bill|Dallas Water|-67.25
+2026-01-15|19:29:30|Online Subscription|Adobe|-21.99
+2026-01-16|07:22:46|Coffee Purchase|Starbucks|-6.04
+2026-01-16|13:18:14|Grocery Shopping|Costco|-212.57
+2026-01-16|18:35:42|Gas Station|Exxon|-54.18
+2026-01-17|08:07:12|ATM Withdrawal|Bank ATM|-80.00
+2026-01-17|12:26:49|Restaurant Payment|Buffalo Wild Wings|-41.23
+2026-01-17|20:04:31|Online Shopping|Best Buy|-249.99
+2026-01-18|09:38:20|Ride Share|Uber|-16.73
+2026-01-18|14:11:57|Lunch Payment|Jimmy John's|-12.63
+2026-01-18|18:47:12|Cell Phone Bill|AT&T|-95.13
+2026-01-19|08:59:05|Coffee Purchase|Starbucks|-5.48
+2026-01-19|12:43:16|Restaurant Payment|Outback Steakhouse|-52.77
+2026-01-19|17:18:42|Transfer Out|Savings Account|-400.00
+2026-01-20|07:45:33|Gas Station|Chevron|-49.84
+2026-01-20|11:37:10|Grocery Shopping|Whole Foods|-132.66
+2026-01-20|19:24:45|Movie Tickets|Cinemark|-31.50
+2026-01-21|08:12:28|Coffee Purchase|Dunkin|-4.95
+2026-01-21|13:21:07|Office Supplies|Office Depot|-38.41
+2026-01-21|18:14:56|Online Shopping|Amazon|-89.37
+2026-01-22|09:04:39|Parking Fee|Downtown Garage|-15.00
+2026-01-22|12:55:41|Lunch Payment|Panera|-14.05
+2026-01-22|20:33:18|Streaming Service|Disney+|-13.99
+2026-01-23|08:18:44|Coffee Purchase|Starbucks|-5.79
+2026-01-23|14:02:27|Hardware Store|Lowe's|-91.63
+2026-01-23|17:47:05|Electric Bill|TXU Energy|-138.21
+2026-01-24|07:59:51|Gas Station|Shell|-47.55
+2026-01-24|13:17:38|Restaurant Payment|Cheesecake Factory|-58.22
+2026-01-24|18:52:34|Online Shopping|Etsy|-27.14
+2026-01-25|09:27:15|Gym Membership|LA Fitness|-39.99
+2026-01-25|12:48:09|Lunch Payment|Subway|-10.88
+2026-01-25|19:36:20|Internet Bill|Spectrum|-79.99
+2026-01-26|08:03:26|Coffee Purchase|Starbucks|-6.02
+2026-01-26|11:42:18|Grocery Shopping|Walmart|-118.75
+2026-01-26|17:24:57|Refund Processed|Target|22.50
+2026-01-27|07:51:42|Ride Share|Lyft|-19.84
+2026-01-27|13:29:55|Restaurant Payment|Olive Garden|-44.37
+2026-01-27|20:06:11|Online Subscription|Microsoft|-9.99
+2026-01-28|08:41:07|Gas Station|Exxon|-52.11
+2026-01-28|12:34:26|Lunch Payment|Chipotle|-13.94
+2026-01-28|18:58:43|Online Shopping|Amazon|-72.48
+2026-01-29|09:12:36|Coffee Purchase|Dunkin|-5.26
+2026-01-29|14:15:52|Pharmacy Purchase|CVS|-32.74
+2026-01-29|17:49:25|Transfer In|Savings Account|750.00
+2026-01-30|08:06:18|Grocery Shopping|Kroger|-103.42
+2026-01-30|13:57:41|Restaurant Payment|Chili's|-39.88
+2026-01-30|19:22:09|Streaming Service|Netflix|-15.49
+2026-01-31|07:47:03|Coffee Purchase|Starbucks|-5.91
+2026-01-31|11:38:28|Gas Station|Chevron|-50.64
+2026-01-31|18:45:57|Salary Deposit|Acme Corp|2500.00
+2026-02-01|09:25:14|Online Shopping|Amazon|-127.36
+2026-02-01|13:12:50|Lunch Payment|Panera|-12.58
+2026-02-01|20:04:33|Utility Bill|Dallas Water|-64.10
+2026-02-02|08:11:49|Coffee Purchase|Starbucks|-5.73
