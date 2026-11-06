@@ -6,8 +6,9 @@ import java.time.LocalTime;
 import java.util.Scanner;
 
  public class Main {
-
-    private static final Scanner scanner =
+     //Scanner reads information entered by user
+     //I put it in static so all methods in Main can use it
+     private static final Scanner scanner =
             new Scanner(System.in);
 
     private static final Ledger ledger = new Ledger();
@@ -19,6 +20,7 @@ import java.util.Scanner;
         System.out.println("       MY ACCOUNTING LEDGER");
         System.out.println("==================================");
 
+        //Controls whether the application continues running
         boolean running = true;
 
         while (running) {
@@ -35,6 +37,7 @@ import java.util.Scanner;
                     .trim()
                     .toUpperCase();
 
+            //Determines actions to preform
             switch (choice) {
 
                 case "D":
